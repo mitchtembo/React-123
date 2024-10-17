@@ -1,18 +1,17 @@
-import React from 'react'
-import List from "./SandBox/List.jsx"
-import ProductList from './SandBox/ProductList.jsx'
-
 const App = () => {
-
+  return <User name = "Mitchel Tembo"age = {26} isMarried = {false} />
   
-  return (
-    <div>
-      <h1>APP</h1>
-      <List />
-      <ProductList/>
-    
-    </div>
+}
+
+const User = ({name,age,isMarried}) => {
+  return(
+    <section>
+      <h1>Hello {name}</h1>
+      <p>Are you ready to celebrate your {age}th birthday</p>
+      <h3>Any plans of getting married {isMarried ? "Yess" : "Umm No!"}</h3>
+  </section>
   )
 }
+
 
 export default App
