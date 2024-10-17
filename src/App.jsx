@@ -1,7 +1,6 @@
 import React from 'react'
-import Greeting from './Components/Greeting'
-import ProductInfo from './Components/ProductInfo'
 import List from "./SandBox/List.jsx"
+import ProductList from './SandBox/ProductList.jsx'
 
 const App = () => {
 
@@ -10,6 +9,7 @@ const App = () => {
     <div>
       <h1>APP</h1>
       <List />
+      <ProductList/>
     
     </div>
   )
