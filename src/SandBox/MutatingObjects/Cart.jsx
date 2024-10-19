@@ -17,7 +17,7 @@ const Cart = () => {
     return(<div>
         <h1>Inventory:</h1>
         <h2>prodName: {products?.name}</h2>
-        <h3>price: {products?.price}</h3>
+        <h3>price: {products?.price}</h3>   
         <h5>{products?.inStock}</h5>
         <button onClick={handleProduct}>updatePrice</button>
     </div>)

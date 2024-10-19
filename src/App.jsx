@@ -1,11 +1,10 @@
 import React from 'react'
-import Counter from './Counter'
-import TodoLis from './TodoLis'
+import ShoppingList from './ShoppingList'
 
 const App = () => {
   return (
     <div>
-      <TodoLis/>
+      <ShoppingList />
     </div>
   )
 }
