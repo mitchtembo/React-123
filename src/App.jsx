@@ -1,17 +1,13 @@
-const App = () => {
-  return <User name = "Mitchel Tembo"age = {26} isMarried = {false} />
-  
-}
+import React from 'react'
+import Counter from './Counter'
+import TodoLis from './TodoLis'
 
-const User = ({name,age,isMarried}) => {
-  return(
-    <section>
-      <h1>Hello {name}</h1>
-      <p>Are you ready to celebrate your {age}th birthday</p>
-      <h3>Any plans of getting married {isMarried ? "Yess" : "Umm No!"}</h3>
-  </section>
+const App = () => {
+  return (
+    <div>
+      <TodoLis/>
+    </div>
   )
 }
-
 
 export default App
